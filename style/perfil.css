@@ -1,0 +1,77 @@
+body{
+  background: black;
+  margin: 0 1rem;
+  padding: 0;
+  
+}
+
+h2{
+  color: white;
+  align-items: center;
+  position: absolute;
+  margin-top: 8%;
+  font-family: 'Kanit', sans-serif;
+}
+main{
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  
+ 
+  
+}
+
+header .logo{
+  /* color: var(--vermelho);
+   font-family: 'Arial Black', Times;
+   font-size:2.5rem;*/
+   margin-left: 0.3125rem;
+   margin-right: 0.4rem;
+   padding: 1rem 0.8rem 0.3rem 0.3rem;
+   width: 8.3rem;
+ } 
+
+ .container{
+   display: flex;
+   height: 100%;
+   width: 100%;
+   align-items: center;
+ }
+
+ .perfis {
+   padding: .4rem;
+   text-decoration: none;
+   
+   color: rgb(145, 144, 144);
+   text-align: center;
+   transition: .6s;
+   
+   
+ }
+
+ .perfis img{
+   
+   border-radius: .4rem;
+  
+ }
+
+ .perfis p{
+  font-family: 'Kanit', sans-serif;
+  
+  margin-top: -2px;
+ }
+
+
+
+.perfis:hover{
+  border: 1px solid white;
+  color: white;
+  border-radius: .3rem;
+  
+}
+ 
+
+ 
+ 
